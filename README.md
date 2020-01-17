@@ -18,6 +18,7 @@ This sensor use unofficial API provided by MPK Rzeszów.
 | `id` | `positive integer` | `True` | - | ID of a stop |
 | `name` | `string` | `False` | id | Name of a stop |
 | `lines` | `list` | `False` | all available | List of monitored lines. |
+| `directions` | `list` | `False` | all available | List of monitored directions. |
 
 ## Example usage
 
@@ -26,7 +27,12 @@ sensor:
   - platform: mpk_rzeszow
       stops:
         - id: 875
+          lines:
+            - "13"          
+            - "2"          
         - id: 18
+          directions:
+            - "Obr. Poczty Gdańskiej"
 ```
 
 ## Installation
