@@ -67,7 +67,7 @@ After adding a custom repository you can use HACS to install this integration us
 
 ### Manual
 
-To install this integration manually you have to download [*mpk_rzeszow.zip*](https://github.com/PiotrMachowski/Home-Assistant-custom-components-MPK-Rzeszow/releases/latest/download/mpk_rzeszow.zip) extract its contents to `config/custom_components/mpk_rzeszow` directory:
+To install this integration manually you have to download [*mpk_rzeszow.zip*](https://github.com/PiotrMachowski/Home-Assistant-custom-components-MPK-Rzeszow/releases/latest/download/mpk_rzeszow.zip) and extract its contents to `config/custom_components/mpk_rzeszow` directory:
 ```bash
 mkdir -p custom_components/mpk_rzeszow
 cd custom_components/mpk_rzeszow
